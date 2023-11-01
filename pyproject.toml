@@ -1,0 +1,17 @@
+[project]
+name = "the_office"
+version = "0.1.0"
+description = "Collection of episodes of The Office."
+authors = [
+    {name = "Artem Ermulin", email = "artem.ermulin@ya.ru"},
+]
+dependencies = [
+    "pydantic>=2.4.2",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
